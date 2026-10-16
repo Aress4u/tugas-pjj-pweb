@@ -1,0 +1,25 @@
+:root{--navy:#0f2f5c;--gold:#f0b323;--paper:#f5f7fa;--ink:#1b2433}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink);background:#fff}
+.topbar{background:var(--navy);color:#cfd9e8;font-size:.82rem}
+.topbar a{color:#fff;text-decoration:none}
+.navbar-brand{font-weight:800;color:var(--navy)!important;line-height:1.1}
+.navbar-brand small{display:block;font-weight:500;font-size:.7rem;color:#5b6b82}
+.nav-link{font-weight:600}
+.nav-link.active{color:var(--navy)!important;box-shadow:inset 0 -3px var(--gold)}
+.btn-gold{background:var(--gold);border:0;font-weight:700;color:var(--navy)}
+.btn-gold:hover{background:#d99f12;color:var(--navy)}
+.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-8%;top:-20%;width:34%;height:150%;background:var(--gold);transform:rotate(18deg);opacity:.95}
+.hero .container{position:relative;z-index:1}
+.hero h1{font-weight:800;letter-spacing:-.02em}
+.foto{min-height:300px;border-radius:.75rem;background:url(img/gedung.jpg) center/cover,linear-gradient(135deg,#2c5a96,#0b2244);display:flex;align-items:end;color:#fff;padding:1rem;font-size:.85rem}
+.page-head{background:var(--paper);border-bottom:4px solid var(--gold)}
+.sec-title{font-weight:800;color:var(--navy)}
+.card{border:0;box-shadow:0 1px 3px rgba(15,47,92,.12)}
+.card-img-top{height:170px;object-fit:cover;background:linear-gradient(135deg,#dfe7f2,#b9c9de)}
+.thumb{height:170px;background:linear-gradient(135deg,#dfe7f2,#b9c9de)}
+.kat{font-size:.75rem;font-weight:700;color:#a86f00}
+.ikon{width:56px;height:56px;border-radius:50%;background:var(--navy);color:var(--gold);display:grid;place-items:center;font-size:1.6rem}
+.misi li{margin-bottom:.5rem}
+footer{background:var(--navy);color:#cfd9e8}
+footer a{color:#fff}
